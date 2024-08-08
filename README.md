@@ -35,6 +35,42 @@ pip install requests
 Finally run the library
 
 ```
-python epagent_REST_tutorial.py
+python epagent_REST_tutorial.py  --verbose
 ```
+
+It will write output so..
+
+```
+jsonDump:
+{
+    "metrics": [
+        {
+            "type": "IntAverage",
+            "name": "Example|Metrics:IntAverageMetric",
+            "value": "22"
+        },
+        {
+            "type": "IntCounter",
+            "name": "Example|Metrics:IntCounterMetric",
+            "value": "22"
+        },
+        {
+            "type": "LongCounter",
+            "name": "Example|Metrics:LongCounterMetric",
+            "value": "22"
+        },
+        {
+            "type": "StringEvent",
+            "name": "Example|Metrics:StringEvent",
+            "value": "Hi I am a string value"
+        }
+    ]
+}
+Response:
+{
+    "validCount": 4
+}
+StatusCode: 200
+```
+
 
