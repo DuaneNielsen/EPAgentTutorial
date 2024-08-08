@@ -28,6 +28,7 @@ search and uncomment the below line
 Restart the Infrastructure agent
 
 ```
+cd apmia
 APMIACtrl.sh restart
 ```
 
