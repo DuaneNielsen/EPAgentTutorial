@@ -1,6 +1,6 @@
 # EPAgentTutorial
 
-A minimal example in python3 that creates metrics in EPAgent
+A minimal example in python3 that creates metrics in the DX SaaS Platform, using the EPAgent REST API.
 
 ### Install Steps
 
