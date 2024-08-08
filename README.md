@@ -12,7 +12,14 @@ cd apmia
 APMIACtrl.sh install
 ```
 
-In the apmia/core/config/IntroscopeAgent.profile uncomment the below line
+open the IntroscopeAgent.profile (use whatever text editor you like)
+
+```
+cd ..
+vi apmia/core/config/IntroscopeAgent.profile
+```
+
+search and uncomment the below line
 
 ```
 # introscope.epagent.config.httpServerPort=8080
