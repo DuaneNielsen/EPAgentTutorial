@@ -32,13 +32,13 @@ You will also need requests
 pip install requests
 ```
 
-Finally run the library
+Finally run the script
 
 ```
 python epagent_REST_tutorial.py  --verbose
 ```
 
-It will write output so..
+It will write output like so..
 
 ```
 jsonDump:
